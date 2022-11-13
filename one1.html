@@ -64,7 +64,52 @@
         </div>
     </section>
     <section id="section-1">
-
+        <div>
+            <h3>
+                Weather App
+            </h3>
+            <div id="tempBlock">
+                <h1>Температура</h1>
+                <h1 id="tempH">N °C</h1>
+            </div>
+            <div id="rowBlock">
+                <div id="relativehumidity">
+                    <h5>Относительная влажность</h5>
+                    <h5 id="relaH">N %</h5>
+                </div>
+                <div id="windspeed">
+                    <h5>Скорость ветра</h5>
+                    <h5 id="windH">N km/h</h5>
+                </div>
+            </div>
+            <div id="location">
+                <button onclick="weatherBut()">Get Device Location</button>
+                <select id="select" onchange="weather()">
+                    <option value="-1">-</option>
+                    <option value="0">Berlin</option>
+                    <option value="1">Paris</option>
+                    <option value="2">London</option>
+                    <option value="3">Madrid</option>
+                    <option value="4">Vienna</option>
+                    <option value="5">Brussels</option>
+                    <option value="6">Moscow</option>
+                    <option value="7">Sofia</option>
+                    <option value="8">Copenhagen</option>
+                    <option value="9">Athens</option>
+                    <option value="10">Budapest</option>
+                    <option value="11">Reykjavik</option>
+                    <option value="12">Dublin</option>
+                    <option value="13">Rome</option>
+                    <option value="14">Amsterdam</option>
+                    <option value="15">Oslo</option>
+                    <option value="16">Warsaw</option>
+                    <option value="17">Lisabon</option>
+                    <option value="18">Bern</option>
+                    <option value="19">Kiev</option>
+                    <option value="20">Stockholm</option>
+                </select>
+            </div>
+        </div>
     </section>
     <footer>
         <p>2022© Student MIREA. ALL RIGHTS RESERVED</p>
